@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PySpark / Spark
+*.log
+*.out
+*.err
+spark-warehouse/
+
+# Docker
+docker/spark/__pycache__/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment and credentials
+.env
+
+
+# Test outputs
+tests/__pycache__/
+
